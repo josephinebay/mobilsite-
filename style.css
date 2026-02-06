@@ -1,0 +1,50 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+h1,
+h2,
+h3 {
+  font-family: Georgia, serif;
+}
+
+main {
+  padding: 2rem;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  margin: 1rem 0;
+}
+:root {
+  --primary: #1567b9;
+  --secondary: #f2f2f2;
+  --accent: #ffae00;
+}
+/* Farver */
+:root {
+  --primary: #3685ed;
+  --secondary: #f5f5f5;
+  --accent: #e5e9ef;
+}
+
+/* Gælder ALLE sider */
+body {
+  background-color: var(--secondary);
+  color: #115aba;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: var(--primary);
+  color: rgb(169, 204, 238);
+}
+
+a {
+  color: var(--accent);
+}
+body {
+  background-color: #98c8f8;
+}
